@@ -1,0 +1,13 @@
+diff --git a/node_modules/phosphor-react-native/src/lib/icon-base.tsx b/node_modules/phosphor-react-native/src/lib/icon-base.tsx
+index 28da945d..630f6df7 100644
+--- a/node_modules/phosphor-react-native/src/lib/icon-base.tsx
++++ b/node_modules/phosphor-react-native/src/lib/icon-base.tsx
+@@ -45,7 +45,7 @@ function IconBase({
+           }),
+         },
+       ]}
+-      className={`${name}-${weight}__svg-icon-phosphor`}
++      // className is web-only and not part of react-native-svg props.
+       testID={props.testID ?? `phosphor-react-native-${name}-${weight}`}
+       fill="currentColor"
+       viewBox="0 0 256 256"
